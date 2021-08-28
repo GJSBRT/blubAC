@@ -1,7 +1,7 @@
 # About
 here's some info about this AC. First of all it's not finished. it's a small project for a previous server. It's based on vb ac with some added features, which may not all work. 
 
-
+If you want to support my work, you can get a server at https://dutchis.net or join my discord https://discord.gg/wMrVGkzjwW
 
 
 
