@@ -1,3 +1,10 @@
+# About
+here's some info about this AC. First of all it's not finished. it's a small project for a previous server. It's based on vb ac with some added features, which may not all work. 
+
+
+
+
+
 # Permissions
 ADMIN BYPASSES (SERVER.CFG):
 
