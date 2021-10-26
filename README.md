@@ -6,20 +6,24 @@ If you want to support my work, you can get a server at https://dutchis.net or j
 
 
 # Permissions
-ADMIN BYPASSES (SERVER.CFG):
-
 ADMIN BYPASS (INCLUDES ADMIN MENU):
+
 add_ace blubacadmin allow 
+
 add_ace identifier.steam:000000000000000 blubacadmin allow
 
 ADMIN BYPASS (DOES NOT INCLUDE ADMIN MENU):
+
 add_ace blubacbypass allow 
+
 add_ace identifier.steam:000000000000000 blubacbypass allow
 
 
 # COMMANDS:
 reloadbans - Reloads bans
+
 blubacinstall - Installs anti-inject
+
 blubacuninstall - Uninstalls anti-inject
 
 
@@ -42,8 +46,7 @@ In order to protect a server event, a simple if statement must be added.
 ```lua
 RegisterNetEvent('blubac:testEvent')
 AddEventHandler('blubac:testEvent', function(token)
-	local _source = source
-	if not exports['blubac_tokenizer']:secureServerEvent(GetCurrentResourceName(), _source, token) then
+	if not exports['blubac_tokenizer']:secureServerEvent(GetCurrentResourceName(), source, token) then
 		return false
 	end
 	print("Authenticated")
