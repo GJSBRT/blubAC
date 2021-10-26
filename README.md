@@ -7,17 +7,16 @@ If you want to support my work, you can get a server at https://dutchis.net or j
 
 # Permissions
 ADMIN BYPASS (INCLUDES ADMIN MENU):
-
+```
 add_ace blubacadmin allow 
-
 add_ace identifier.steam:000000000000000 blubacadmin allow
+```
 
 ADMIN BYPASS (DOES NOT INCLUDE ADMIN MENU):
-
+```
 add_ace blubacbypass allow 
-
 add_ace identifier.steam:000000000000000 blubacbypass allow
-
+```
 
 # COMMANDS:
 reloadbans - Reloads bans
