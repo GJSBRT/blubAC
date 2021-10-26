@@ -19,12 +19,11 @@ add_ace identifier.steam:000000000000000 blubacbypass allow
 ```
 
 # COMMANDS:
-reloadbans - Reloads bans
-
-blubacinstall - Installs anti-inject
-
+```
+reloadbans 	- Reloads bans
+blubacinstall 	- Installs anti-inject
 blubacuninstall - Uninstalls anti-inject
-
+```
 
 
 # Tokenizor Usage
